@@ -1,0 +1,78 @@
+body {
+    background-image: url("cloudsBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#headerDiv {
+    background-image: url("swirl_pattern.png");
+    opacity: 0.9;
+    text-align: center;
+    height: 300px;
+}
+
+#headerMainText {
+    font-size: 70px;
+    padding: 70px 0px 0px 0px;
+    font: helvetica, sans-serif;
+}
+
+#leftCol {
+    height: 800px;
+    margin: 20px 0px 0px 0px;
+    padding: 40px;
+}
+
+#rightCol {
+    height: 800px;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+#bottomDiv {
+    height: 400px;
+}
+
+#cardHeader {
+    text-align: center;
+}
+
+#disasterContainer {
+    height: 200px;
+}
+
+.fluid.ui.orange.button.DISBUTTON {
+    margin: 5px 0px 5px 0px;
+    height: 60px;
+}
+
+#topDiv {
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+#topDivBG {
+    background-image: url("exclusive_paper.png");
+}
+
+#leftColBG {
+    background-image: url("exclusive_paper.png");
+}
+
+#headerText {
+    text-align: center;
+    font-size: 30px;
+}
+
+#bottomDiv {
+    padding: 40px 0px 40px 0px;
+}
+
+#instructText {
+    text-align: center;
+}
+
+#infoHeader {
+    font-size: 25px;
+    text-align: center;
+}
