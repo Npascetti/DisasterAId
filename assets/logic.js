@@ -63,7 +63,7 @@ $('.ui.accordion').accordion({ exclusive: false });
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
   }
-  myMap();
+  // myMap();
 
   //query for disasters
   var queryURL = "https://api.reliefweb.int/v1/disasters?profile=full&limit=10&sort[]=date:desc"
