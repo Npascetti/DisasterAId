@@ -2,19 +2,36 @@ body {
     background-image: url("cloudsBG.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#headerContainer {
+  text-align: center;
+  width: auto;
 }
 
 #headerDiv {
     background-image: url("swirl_pattern.png");
+    display: inline-block;
+    background-size: auto auto;
     opacity: 0.9;
     text-align: center;
     height: 300px;
+    width: 100%;
+    padding: 0px;
 }
 
 #headerMainText {
     font-size: 70px;
     padding: 70px 0px 0px 0px;
     font: helvetica, sans-serif;
+    margin: 0 auto;
 }
 
 #leftCol {
@@ -26,7 +43,7 @@ body {
 #rightCol {
     height: 800px;
     margin: 20px 0px 0px 0px;
-    padding: 0px 0px 0px 20px;
+    padding: 40px;
 }
 
 #bottomDiv {
@@ -79,4 +96,5 @@ body {
 
 .header {
   text-align: center;
+  display: inline;
 }

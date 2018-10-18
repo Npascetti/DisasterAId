@@ -25,12 +25,13 @@ function createJobDescriptions(j, response) {
 function createEventListener(i, response, myMap, lat, lon) {
   console.log(response.data[i].fields["description-html"])
   $("#disasterButton" + i).click(function () {
-    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     let formattedDate = new Date(response.data[i].fields.date.created.substring(0,19))
     console.log(formattedDate.toLocaleDateString("en-US", options));
-    $("#disType").text(response.data[i].fields.primary_type.name);
+    $(".disLocation").text("");
+    $("#disType").text(response.data[i].fields.primary_type.name + " in ");
     $("#disDate").text(formattedDate.toLocaleDateString("en-US", options))
-    $("#disLocation").text(response.data[i].fields.primary_country.name);
+    $(".disLocation").append(response.data[i].fields.primary_country.name);
     $("#jobsInfo").text("");
     $("#disDescription").html(response.data[i].fields["description-html"]);
     myMap(lat, lon);

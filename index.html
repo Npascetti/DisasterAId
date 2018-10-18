@@ -16,12 +16,13 @@
 
 <body>
 
-
-<div class="ui text container" id="headerDiv">
+<div id="headerContainer">
+<div class="ui text segment" id="headerDiv">
   <h1 class="ui header" id="headerMainText">
     Disaster Aid App
   </h1>
   <h2>Follow recent disasters and learn what you can do to help</h2>
+</div>
 </div>
 
 <div class="ui grid">
@@ -54,7 +55,7 @@
       <div class="ui card" style="width: 700px">
         <div class="content">
           <div class="header" id="infoHeader">More Information</div>
-          <div class="header"><div id="disType"></div></div>
+          <div class="header"><div id="disType" class="disLocation"></div></div>
           <div class="header"><b>Ongoing since</b><div id="disDate"></div></div>
 
         </div>
@@ -62,14 +63,14 @@
 
 
 
-            <div class="ui accordion">
-              <div class="title">
+            <div class="ui styled fluid accordion">
+              <div class="title active">
               <i class="dropdown icon"></i>
               <b>Location</b>
               </div>
-              <div class="content">
-              <h2 id="disLocation"></h2>
-              <div id="googleMap" style="width:680px;height:500px;"></div>
+              <div class="content active">
+              <h2 class="disLocation"></h2>
+              <div id="googleMap" style="width:655px;height:500px;"></div>
               </div>
               <div class="title">
               <i class="dropdown icon"></i>
