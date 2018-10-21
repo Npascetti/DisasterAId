@@ -23,7 +23,6 @@ function createJobDescriptions(j, response) {
 }
 
 function createEventListener(i, response, myMap, lat, lon) {
-  console.log(response.data[i].fields["description-html"])
   $("#disasterButton" + i).click(function () {
     let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     let formattedDate = new Date(response.data[i].fields.date.created.substring(0,19))
@@ -95,6 +94,9 @@ $('.ui.accordion').accordion({ exclusive: false });
         //ajax job call
         createEventListener(i, response, myMap, lat, lon);
       }
+
+      $("#disasterButton0").click();
+
 
     });
 
