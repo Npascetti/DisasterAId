@@ -35,18 +35,18 @@
   <h2>Follow recent disasters and learn about available jobs</h2>
 </div>
   <div class="ui huge buttons headerButton">
-    <button class="ui button">Search</button>
+    <button class="ui button"><i class="down arrow icon"></i>Search</button>
     <div class="or"></div>
-    <button class="ui positive button">Browse</button>
+    <button class="ui positive button">Browse<i id="browseArrowIcon" class="down arrow icon"></i></button>
   </div>
 </div>
 
 </div>
 
 <div class="ui vertical stripe segment">
-  <div class="ui category search">
+  <div id="searchBar"class="ui category search">
   <div class="ui icon huge input">
-    <input class="prompt" placeholder="Search animals..." type="text">
+    <input class="prompt" placeholder="Search events..." type="text">
     <i class="search icon"></i>
   </div>
   <div class="results"></div>
@@ -98,7 +98,7 @@
               </div>
               <div class="content active">
               <h2 class="disLocation"></h2>
-              <div id="googleMap" style="width:inherit;height:30em;"></div>
+              <div id="googleMap" style="width:inherit;height:29.5em;"></div>
               </div>
               <div class="title">
               <i class="dropdown icon"></i>
