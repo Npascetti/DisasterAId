@@ -37,13 +37,13 @@ html {
 
 #leftCol {
     height: 800px;
-    margin: 20px 0px 0px 0px;
+    margin: 0;
     padding: 40px;
 }
 
 #rightCol {
     height: 800px;
-    margin: 20px 0px 0px 0px;
+    margin: 0;
     padding: 40px;
 }
 
@@ -120,4 +120,10 @@ html {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.ui.vertical.stripe.segment {
+  padding: 8em;
+  margin: 0;
+  opacity: .9;
 }
