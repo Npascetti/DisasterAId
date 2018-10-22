@@ -14,6 +14,7 @@ html {
 #headerContainer {
   text-align: center;
   width: auto;
+
 }
 
 #headerDiv {
@@ -22,7 +23,7 @@ html {
     background-size: auto auto;
     opacity: 0.7;
     text-align: center;
-    height: 300px;
+    height: 100vh;
     width: 100%;
     padding: 0px;
 }
@@ -101,4 +102,13 @@ html {
 
 #googleMap {
   position: relative;
+}
+
+.verticalCenter {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
