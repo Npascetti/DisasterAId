@@ -116,7 +116,7 @@ html {
 .ui.buttons.headerButton {
   margin: 0;
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
