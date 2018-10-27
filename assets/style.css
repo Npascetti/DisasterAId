@@ -1,14 +1,18 @@
+
 body {
     background-image: url("cloudsBG.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
+    background-color: rgba(255, 255, 255, 0.9);
     width: 100%;
     overflow-x: hidden;
 }
 html {
   width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+
 }
 
 #headerContainer {
@@ -42,7 +46,7 @@ html {
 }
 
 #rightCol {
-    height: 800px;
+
     margin: 0;
     padding: 40px;
 }
@@ -139,4 +143,12 @@ html {
 
 #browseArrowIcon {
   padding-left: .75em;
+}
+
+#bodyDiv {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.ui.card {
+  overflow-y: auto;
 }
